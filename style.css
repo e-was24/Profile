@@ -221,11 +221,15 @@ html {
     }
 }
 
+
 /* tablet */
 @media (max-width: 768px) {
     .nav {
         gap: 2rem;
-        margin-left: -5%;
+        margin-left: -2%;
+    }
+    .nama4 {
+        display: none;
     }
 }
 
@@ -234,5 +238,8 @@ html {
     .nav {
         gap: 1rem;
         margin-left: 10%;
+    }
+    .nama4 {
+        display: none;
     }
 }
