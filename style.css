@@ -225,6 +225,5 @@ html {
 @media (max-width: 576px) {
     .nav {
         gap: 1rem;
-        margin-left: 6%;
     }
 }
