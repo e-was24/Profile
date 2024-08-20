@@ -1,2 +1,0 @@
-# Profile
-open my profile
