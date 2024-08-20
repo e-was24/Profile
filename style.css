@@ -146,7 +146,7 @@ html {
     height: 225px;
     width: 150px;
     margin-left: 5%;
-    margin-top: 10px;
+    margin-top: 5%;
     /* margin-left: 46%; */
     border: 2px solid white;
     animation: img 13s linear;
@@ -163,11 +163,31 @@ html {
 
 .bioT {
     color: white;
-    font-family:  'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.waktu {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.432);
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-radius: 9px;
+    animation: waktu 5s linear infinite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
+@keyframes waktu {
+   0% {color: white;}
+   25% {color: red;}
+   50% {color: green;}
+   75% {color: blue;}
+   100% {color: white;}
 
+}
 
 @keyframes inifite-scroll {
     from {
@@ -221,15 +241,11 @@ html {
     }
 }
 
-
 /* tablet */
 @media (max-width: 768px) {
     .nav {
         gap: 2rem;
-        margin-left: 5%;
-    }
-    .nama4 {
-        display: none;
+        margin-left: 50%;
     }
 }
 
