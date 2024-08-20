@@ -221,9 +221,18 @@ html {
     }
 }
 
+/* tablet */
+@media (max-width: 768px) {
+    .nav {
+        gap: 2rem;
+        margin-left: 2%;
+    }
+}
+
 /* mobile */
 @media (max-width: 576px) {
     .nav {
         gap: 1rem;
+        margin-left: 10%;
     }
 }
