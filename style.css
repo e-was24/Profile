@@ -220,3 +220,11 @@ html {
         border-radius: 7% 93% 5% 95% / 95% 4% 96% 5%;
     }
 }
+
+/* mobile */
+@media (max-width: 576px) {
+    .nav {
+        gap: 1rem;
+        margin-left: 13%;
+    }
+}
