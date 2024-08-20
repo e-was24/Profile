@@ -226,7 +226,7 @@ html {
 @media (max-width: 768px) {
     .nav {
         gap: 2rem;
-        margin-left: -2%;
+        margin-left: 5%;
     }
     .nama4 {
         display: none;
